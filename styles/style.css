@@ -344,6 +344,7 @@
 }
 
 .footer__column_content_hours {
+  margin-left: auto;
 }
 
 .footer__column_content_social {
@@ -353,8 +354,6 @@
 .footer__logo {
   width: 58px;
   height: 80px;
-  position: absolute;
-  left: 80px;
 }
 
 .footer__column-heading {
@@ -378,13 +377,13 @@
   text-decoration: none;
   margin-top: 16px;
   display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   width: 16px;
   height: 16px;
-  align-self: center;
 }
 
 .footer__copyright {
